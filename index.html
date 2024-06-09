@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+    <section class="new-header">
+        <nav>
+            
+            <div class="nav-links">
+            
+                <ul>
+            
+                    <li><a href="index.html">HOME</a></li>
+            
+                    <li><a href="#about-me">ABOUT</a></li>
+            
+                    <li><a href="#hobbies">HOBIES</a></li>
+            
+                    <li><a href="contact.html">CONTACT</a></li>
+            
+                </ul>           
+            </div>           
+        </nav>
+        <div class="text-box">
+            <h1><span style="color: #cfc5ff;">Showcasing Creativity and Innovation  </span></h1>             
+            <p>Hi there! I am <span style="color:#cfc5ff;">Abdul</span>, a passionate website developer  based in Dhaka, Bangladesh. With a keen eye for detail and a relentless<br> drive for excellence, I strive to bring creativity and innovation to every project I undertake.
+        
+            </p>            
+</section>
+
+
+<!------about------>
+
+
+<section id="about-me", class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <h1> About Me: </h1>
+            <p> <i>Hello! My name is <b>Abdul Hai</b>.Currently I'm a student at <b>Brac University</b>(<a href="https://www.bracu.ac.bd/" >Bracu</a>), majoring in computer science.I am passionate about technology, music, and video games. I believe in the power of continuous learning and enjoy exploring new ideas and skills.
+                 Whether it's diving into the latest tech trends, exploring the gaming world, or listening to timeless music, I find joy in a variety of interests. </i> 
+            <p> <i> One of my favorite lines from <b>The Shawshank Redemption</b> is "Get busy living, or get busy dying."</i>
+            <p class="extra-margin"><b>Education:</b> SSC(2018), HSC(2020), BSC in Computer Science(2021-present)</p>
+            <p><i>This is a simple project about myself and my interests. This is for a course i am currently taking which is <b>CSE-391.</b> Here is a link for the CSE-391 piazza page <a href="https://piazza.com/bracu.ac.bd/spring2023/cse391/" >Explore Now</a> </i></p>
+            
+
+        </div>
+        <div class="about-col">
+            <img src="images/profile.jpg">
+        </div>
+    </div>
+</section>
+
+<!------hobbies------>
+
+<section id="hobbies">
+<section class="hobbies">
+     
+    <h1>Hobies</h1>   
+    <p>Hobbies provide relaxation, boost creativity, and enhance well-being, adding joy and balance to our lives.</p>
+    <div class="row">
+        <div class="h-col">
+            <h2>Songs</h2>
+            <ul>
+                <li>Imagine Dragons - Believer</li>
+                <li>A Man Without Love by Engelbert Humperdinck</li>
+                <li>OneRepublic - Counting Stars</li>
+                <li>Straight To Your Heart</li>
+            </ul>
+           
+        </div>
+        <div class="h-col">
+            <h2>Games</h2>
+            <ul>
+                <li>Red Dead Redemption 2</li>
+                <li>devil may cry 3</li>
+                <li>Valorant</li>
+                <li>GTA V</li>
+            </ul>
+        </div>
+        <div class="h-col">
+            <h2>TV-Series</h2>
+            <ul>
+                <li>Breaking Bad </li>
+                <li>Game of Thrones</li>
+                <li>The Big Bang Theory</li>
+                <li>Peaky blinders</li>
+            </ul>
+        </div>
+    </div>
+    
+</section>
+</section>
+
+
+<footer>
+    <div id="footer-info"></div>
+</footer>
+
+<script>
+    var lastModified = document.lastModified;
+    var formattedDate = new Date(lastModified).toLocaleString();
+    var footerText = 'Last Modified:<br>' + formattedDate;
+    document.getElementById('footer-info').innerHTML = footerText;
+</script>
+
+</body>
+</html>
